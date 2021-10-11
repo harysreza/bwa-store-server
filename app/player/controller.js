@@ -78,9 +78,9 @@ module.exports = {
           gameName: res_voucher._doc.name,
           category: res_voucher._doc.category ? res_voucher._doc.name : "",
           thumbnail: res_voucher._doc.thumbnail,
-          coinName: res_voucher._doc.coinName,
-          coinQuantity: res_voucher._doc.coinQuantity,
-          price: res_voucher._doc.price,
+          coinName: res_nominal._doc.coinName,
+          coinQuantity: res_nominal._doc.coinQuantity,
+          price: res_nominal._doc.price,
         },
         historyPayment: {
           name: res_bank._doc.name,
